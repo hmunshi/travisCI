@@ -15,3 +15,6 @@ python:
 # # command to run tests
 script:
   - python hello.py 
+
+after_success:
+  - codecov
