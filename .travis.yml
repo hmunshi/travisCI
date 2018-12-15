@@ -10,4 +10,4 @@ script:
   - pytest
 
 after_success:
-  - codecov -t "254e10f6-f455-4fd4-8c36-9af161ec40ff"
+  - codecov -t 254e10f6-f455-4fd4-8c36-9af161ec40ff
