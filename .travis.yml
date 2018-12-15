@@ -9,7 +9,7 @@ install:
   - pip install codecov
 
 script:
-  - converge run pytest
+  - coverage run pytest
 
 after_success:
   - codecov
